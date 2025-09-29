@@ -12,8 +12,6 @@ YOUR_EMAIL = os.getenv("YOUR_EMAIL")
 YOUR_PASSWORD = os.getenv("YOUR_PASSWORD")
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-YOUR_EMAIL = "rohithathrey@gmail.com"
-YOUR_PASSWORD = "uncs twhy rpod rkvn"
 
 def send_email(to_email, subject, body):
     """Send email via Gmail SMTP. Returns True if successful, False if failed."""
